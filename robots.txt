@@ -1,0 +1,24 @@
+# robots.txt for https://whichonematch.com
+
+# Standard-Suchmaschinen (Google, Bing, DuckDuckGo etc.)
+User-agent: *
+Allow: /
+
+# KI-Suchmaschinen & LLM-Crawler (für Empfehlungen in ChatGPT, Perplexity & Co.)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# Verweis auf die Sitemap
+Sitemap: https://whichonematch.com/sitemap.xml
